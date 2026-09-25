@@ -1,1 +1,0 @@
-import {PanelShell} from '@/components/PanelShell';export default function Page(){return <PanelShell kind="mitra"><h1>Pencairan</h1><div className="card empty">Login mitra diperlukan untuk membuka pencairan.</div></PanelShell>}
