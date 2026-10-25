@@ -1,1 +1,0 @@
-ALTER TABLE "Promotion" ADD COLUMN IF NOT EXISTS "description" TEXT;
