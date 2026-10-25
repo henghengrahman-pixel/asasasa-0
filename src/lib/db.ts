@@ -1,1 +1,0 @@
-import {PrismaClient} from '@prisma/client'; const g=globalThis as unknown as {db?:PrismaClient}; export const db=g.db??new PrismaClient({log:process.env.NODE_ENV==='development'?['error','warn']:['error']}); if(process.env.NODE_ENV!=='production')g.db=db;

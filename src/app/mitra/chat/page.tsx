@@ -1,2 +1,0 @@
-import {PanelShell} from '@/components/PanelShell';import {ChatClient} from '@/components/ChatClient';
-export const dynamic='force-dynamic';export default async function Page({searchParams}:{searchParams:Promise<{order?:string}>}){const {order}=await searchParams;return <PanelShell kind="mitra"><ChatClient baseApi="/api/mitra/chat" myRole="PARTNER" initialOrder={order} customerMode={false}/></PanelShell>}

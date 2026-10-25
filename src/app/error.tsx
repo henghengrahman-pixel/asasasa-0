@@ -1,1 +1,0 @@
-"use client";export default function ErrorPage({reset}:{reset:()=>void}){return <main className="container section"><h1>Terjadi kendala</h1><p>Permintaan tidak dapat diproses saat ini.</p><button className="btn primary" onClick={reset}>Coba Lagi</button></main>}
